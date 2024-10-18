@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PackageItemComponent } from "./package-item/package-item.component";
 
 @Component({
@@ -8,6 +8,12 @@ import { PackageItemComponent } from "./package-item/package-item.component";
   templateUrl: './package-list.component.html',
   styleUrl: './package-list.component.css'
 })
-export class PackageListComponent {
+export class PackageListComponent implements OnInit{
+  packages = [];
+  
+  constructor() {}
 
+  ngOnInit(): void {
+    
+  }
 }
