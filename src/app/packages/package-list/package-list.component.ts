@@ -11,6 +11,7 @@ import { Package } from './package.model';
 })
 export class PackageListComponent implements OnInit{
   packages: Package[] = [
+    new Package('Churrasco', 'Churrasco de picanha', 'https://www.ogastronomo.com.br/upload/2051998133-churrasco-uma-paixao-nacional.jpg'),
     new Package('Churrasco', 'Churrasco de picanha', 'https://www.ogastronomo.com.br/upload/2051998133-churrasco-uma-paixao-nacional.jpg')
   ];
   
